@@ -1,1 +1,61 @@
+# Task 1 – Foundations of Cybersecurity
 
+This is my work for Task 1 of the ApexPlanet Cybersecurity & Ethical Hacking Internship.
+
+In this task, I worked with Kali Linux and practiced some basic cybersecurity, Linux, networking, and cryptography concepts.
+
+## What I worked on
+
+1. Cybersecurity Basics
+
+I learned about the CIA Triad:
+
+- "Confidentiality" – making sure information is only available to authorized people.
+- "Integrity" – making sure information is not changed without permission.
+- "Availability" – making sure systems and information are available when needed.
+
+I also studied some common cybersecurity threats such as:
+
+- Phishing
+- Malware
+- DDoS attacks
+- SQL Injection
+- Brute Force attacks
+- Ransomware
+
+Some common attack vectors covered were social engineering, wireless attacks, and insider threats.
+
+
+2. Linux Basics
+
+I used Kali Linux to practice basic Linux commands.
+
+Some of the commands I used were:
+
+bash
+pwd
+ls
+cd
+whoami
+chmod
+ip addr
+
+linux-cheatsheet
+Linux Commands I Practiced
+
+These are some of the basic Linux commands I used while working on Task 1.
+Command
+pwd - Shows where I am currently in the file system
+ls - Shows files and folders 
+cd - Moves to another directory 
+mkdir - Creates a new folder 
+touch - Creates a new file 
+cat - Displays the contents of a file 
+chmod - Changes file permissions 
+whoami - Shows the current logged-in user 
+ip addr - Shows IP and network information 
+ping - Checks whether a host is reachable 
+traceroute - Shows the path taken by network traffic 
+sudo - Runs a command with administrator privileges 
+
+Screenshots of everything performed
