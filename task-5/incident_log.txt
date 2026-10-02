@@ -1,0 +1,48 @@
+INCIDENT RESPONSE SIMULATION
+
+TEST CASE 1 - UNSAFE URL
+Incident ID: PHISH-001
+Date: 02 October 2026
+Incident Type: Suspected Phishing URL
+
+Detection:
+The phishing detection tool analyzed a suspicious URL:
+http://192.168.1.10/login
+
+Risk Score: 4
+Classification: HIGH RISK / POSSIBLE PHISHING
+
+Indicators Detected:
+1. Uses HTTP instead of HTTPS
+2. Uses an IP address instead of a domain name
+3. Contains the suspicious keyword "login"
+
+Response Actions:
+1. Identification - The URL was flagged by the phishing detection tool.
+2. Containment - The suspicious URL was not opened or visited.
+3. Eradication - The suspicious link was treated as unsafe and removed from the simulated environment.
+4. Recovery - No credentials or personal information were entered.
+5. Lessons Learned - Users should verify links and avoid suspicious login requests.
+
+Status: Simulated incident contained successfully.
+
+
+TEST CASE 2 – SAFE URL
+
+URL Tested: https://example.com
+
+Risk Score: 0
+Classification: LOW RISK
+
+Indicators:
+- No obvious phishing indicators detected.
+
+Interpretation:
+The tool did not identify any of the defined phishing indicators in
+the tested URL. The URL was therefore classified as low risk by the
+tool.
+
+Note:
+A LOW RISK result does not guarantee that a website is completely
+safe. It only means that no obvious indicators checked by this
+basic detection tool were found.

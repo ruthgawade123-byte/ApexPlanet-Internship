@@ -1,0 +1,46 @@
+PHISHING DETECTION TEST RESULTS
+===============================
+
+Test Case 1: Suspicious URL
+---------------------------
+URL:
+http://192.168.1.10/login
+
+Risk Score:
+4
+
+Classification:
+HIGH RISK / POSSIBLE PHISHING
+
+Indicators:
+- Uses HTTP instead of HTTPS
+- Uses an IP address instead of a domain name
+- Contains suspicious keyword: login
+
+
+Test Case 2: Safe URL
+---------------------
+URL:
+https://example.com
+
+Risk Score:
+0
+
+Classification:
+LOW RISK
+
+Indicators:
+- No obvious phishing indicators detected.
+
+
+Conclusion:
+The phishing detection tool successfully identified multiple
+suspicious characteristics in the simulated phishing URL and
+classified it as high risk.
+
+The safe test URL was classified as low risk because none of
+the defined phishing indicators were detected.
+
+A low-risk result does not guarantee that a URL is completely
+safe. The tool is a basic heuristic detector intended for
+educational and awareness purposes.

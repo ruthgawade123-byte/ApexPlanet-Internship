@@ -1,0 +1,32 @@
+PHISHING INCIDENT RESPONSE STATUS
+
+Incident ID: PHISH-001
+Type: Suspected Phishing URL
+Status: CONTAINED
+
+1. IDENTIFICATION
+The phishing detection tool identified a suspicious URL
+and classified it as HIGH RISK / POSSIBLE PHISHING.
+
+2. CONTAINMENT
+The suspicious URL was not opened.
+No credentials or personal information were entered.
+The URL was isolated within the simulation.
+
+3. ERADICATION
+The simulated phishing link was treated as unsafe and
+removed from the simulated environment.
+
+4. RECOVERY
+No system compromise occurred in this simulation.
+The environment remained safe and operational.
+
+5. LESSONS LEARNED
+- Check the sender and URL before clicking.
+- Avoid suspicious login or verification links.
+- Do not provide credentials through unexpected links.
+- Verify requests through official channels.
+- Report suspected phishing attempts.
+
+FINAL STATUS:
+Incident successfully contained in the simulated environment.
